@@ -12,9 +12,9 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
-  --sizzling-sunrise: hsl(51, 95%, 54%);
-  --scarlet: hsl(13, 96%, 47%);
+  --raw-seinna: hsl(224, 100%, 25%);
+  --sizzling-sunrise: hsl(190, 100%, 42%);
+  --scarlet: hsl(189, 75%, 75%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 
@@ -22,14 +22,14 @@
    * typography
    */
 
-  --ff-saira-stencil-one: "Saira Stencil One", sans-serif;
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-saira-stencil-one: 'Merriweather', sans-serif;
+  --ff-poppins: "Montserrat", sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
 
-  --fs-1: 2rem;
+  --fs-1: 2.5rem;
   --fs-2: calc(1.813rem + 1vw);
   --fs-3: calc(1.313rem + 1vw);
-  --fs-4: 1.4rem;
+  --fs-4: 1.3rem;
   --fs-5: 1rem;
   --fs-6: 0.813rem;
   --fs-7: 0.75rem;
@@ -106,7 +106,7 @@ body.light_theme {
   box-sizing: border-box;
 }
 
-li { list-style: none; }
+/* li { list-style: none; } */
 
 a { text-decoration: none; }
 
@@ -154,6 +154,7 @@ html {
 }
 
 body {
+  align-items: center;
   background: var(--bg-primary);
   transition: var(--transition-1);
 }
@@ -174,12 +175,14 @@ body.active { overflow: hidden; }
   font-size: var(--fs-1);
   line-height: 1.2;
   font-weight: 400;
+  color: var(--scarlet);
+  font-family: var(--ff-saira-stencil-one);
 }
 
 .h2,
 .h3,
 .h4 {
-  color: var(--color-primary);
+  color: var(--scarlet);
   font-family: var(--ff-poppins);
   line-height: 1.2;
 }
@@ -217,7 +220,7 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
+.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(201, 100%, 36%); }
 
 .section-subtitle {
   position: relative;
@@ -438,7 +441,7 @@ body.active { overflow: hidden; }
   left: 0;
   height: 5px;
   width: 0;
-  background: var(--raw-seinna);
+  background: var(--scarlet);
   transition: var(--transition-1);
 }
 
@@ -525,7 +528,7 @@ main { overflow-x: hidden; }
 
 .stats-card .card-title {
   width: calc(100% - 95px);
-  color: var(--raw-seinna);
+  color: var(--scarlet);
   text-align: center;
 }
 
@@ -660,9 +663,35 @@ main { overflow-x: hidden; }
 \*-----------------------------------*/
 
 .project { padding-block: var(--section-padding); }
+.projects {
+padding-left: 45px;
+padding-right: 45px;
+padding-top: 90px;
+padding-bottom: 45px;
+}
 
 .project-list > li { margin-bottom: 25px; }
-
+.lists {
+  margin-bottom: 15px;
+}
+.card-inside {
+  padding: 20px;
+  /* text-align: left; */
+}
+.description{
+  font-size: var(--fs-5);
+  color: var(--white);
+  font-family: var(--ff-poppins);
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-12);
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+}
+.descrip-titles{
+  color: var(--sizzling-sunrise);
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-4);
+}
 .project-card {
   position: relative;
   overflow: hidden;
