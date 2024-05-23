@@ -7,24 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tiasha - personal portfolio</title>
 
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
 
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="././assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 
   <!--
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="top" class="dark_theme">
@@ -60,26 +66,26 @@
       </button>
 
       <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+        <ul class="navbar-list" style="list-style-type:none;">
 
           <li>
-            <a href="./index.html#home" class="navbar-link">Home.</a>
+            <a href="../index.html#home" class="navbar-link">Home.</a>
           </li>
 
           <li>
-            <a href="./index.html#about" class="navbar-link">About.</a>
+            <a href="../index.html#about" class="navbar-link">About.</a>
           </li>
 
           <li>
-            <a href="./index.html#skills" class="navbar-link">Skills.</a>
+            <a href="../index.html#skills" class="navbar-link">Skills.</a>
           </li>
 
           <li>
-            <a href="./portfolio.html" class="navbar-link">Portfolio.</a>
+            <a href="../portfolio.html" class="navbar-link">Portfolio.</a>
           </li>
 
           <li>
-            <a href="./Contact.html" class="navbar-link">Contact.</a>
+            <a href="../Contact.html" class="navbar-link">Contact.</a>
           </li>
 
         </ul>
@@ -88,24 +94,121 @@
     </div>
   </header>
 
+  <section class="projects">
 
 
+    <ul class="" style="list-style-type:none;">
 
-  <a href="#" class="project-card">
+      <!-- <li class="lists project-card"> -->
 
-    <figure class="card-banner">
-      <img src="././assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
-    </figure>
+        <!-- <li class="lists">
+    <a href="#" class="project-card">
 
-    <div class="card-content">
-      <h3 class="h4 card-title">Lorem Ipsum Dolor 01</h3>
+      <figure class="card-banner">
+        <img src="./project-img/Space-tourism/Home.png"  alt="Space tourism home page">
+      </figure>
 
-      <time class="publish-date" datetime="2022-04">April 2022</time>
-    </div>
+      <div class="card-content">
+        <h3 class="h4 card-title">Space Tourism Multi-page Website</h3>
 
-  </a>
+        <time class="publish-date" datetime="2022-04">March 2023</time>
+      </div>
 
+    </a>
+  </li> -->
 
+      <li class="lists project-card">
+        <div class="description card-inside">
+          <h1 class="h1 hero-title">Space Tourism Multi-page Website</h1>
+          <h3 class="descrip-titles">Project Title: Space Tourism Website</h3>
+          <br>
+          <h3 class="descrip-titles">Overview:</h3>
+          <br>
+          <ul style="list-style-type:disc;">
+            <li><b>The Challenge:</b> Create a responsive multipage website for space tourism that adapts to
+              different screen sizes and allows users to toggle between tabs to view different information.</li>
+            <li><b>Role:</b> Lead Developer and Designer</li>
+          </ul>
+          <br>
+
+          <h3 class="descrip-titles">The Process:</h3>
+          <ol type="1">
+            <li><b>Research and Planning:</b> Analyzed the project requirements from Frontend Mentor, planned the site layout,
+              and identified the key features needed for an optimal user experience.</li>
+            <li><b>Design:</b> Created wireframes and mockups using Figma, focusing on a clean, user-friendly design
+              that highlights the futuristic theme of space tourism.</li>
+            <li>
+              <b>Development:</b>
+              <ul style="list-style-type:disc;">
+                <li><b>Built With:</b> Semantic HTML5, CSS custom properties, Flexbox, CSS Grid, JavaScript</li>
+                <li><b>Responsive Design:</b> Implemented a mobile-first approach to ensure the website looks great on all devices.</li>
+                <li><b>Interactive Elements:</b> Added hover states and tab toggling functionality using JavaScript.</li>
+              </ul>
+            </li>
+
+          </ol>
+          <br>
+
+          <h3 class="descrip-titles">Challenges and Solutions:</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Challenge:</b> Ensuring consistent layout and design across various screen sizes.</li>
+            <li><b>Solution:</b> Utilized CSS Grid and Flexbox to create a flexible layout that adjusts smoothly.</li>
+            <li><b>Challenge:</b> Implementing complex hover states for interactive elements.</li>
+            <li><b>Solution:</b> Used CSS transitions and animations to achieve the desired effects.</li>
+          </ul>
+          <br>
+          <h3 class="descrip-titles">Results and Learnings:</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Learnings:</b> Enhanced my skills in CSS Grid and JavaScript, particularly in creating responsive designs and interactive elements.</li>
+            <li><b>Outcome:</b> Delivered a fully functional, visually appealing space tourism website that meets all the project requirements.</li>
+          </ul>
+          <br>
+          <h3 class="descrip-titles">Links:</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Live Site:</b> Space Tourism Website</li>
+            <li><b>Source Code:</b> GitHub Repository</li>
+          </ul>
+          <br>
+
+          <h3 class="descrip-titles">Screenshots:</h3>
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./project-img/Space-tourism/Home.png" class="w-100" alt="Space tourism home page">
+              </div>
+              <div class="carousel-item">
+                <img src="./project-img/Space-tourism/moon.png" class="w-100" alt="Space tourism home page">
+              </div>
+              <div class="carousel-item">
+                <img src="./project-img/Space-tourism/crew 1.png" class="w-100" alt="Space tourism home page">
+              </div>
+              <div class="carousel-item">
+                <img src="./project-img/Space-tourism/launch vehicle.png" class="w-100" alt="Space tourism home page">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!-- </li> -->
+    </ul>
+
+  </section>
 
   <!--
     - #FOOTER
@@ -121,7 +224,7 @@
       </p>
 
       <p class="copyright">
-        &copy; 2022 <a href="#">codewithtiasha</a>. All rights reserved
+        &copy; 2024 . All rights reserved
       </p>
 
     </div>
@@ -146,7 +249,7 @@
   <!--
     - custom js link
   -->
-  <script src="././assets/js/script.js"></script>
+  <script src="../assets/js/script.js"></script>
 
   <!--
     - ionicon link
@@ -154,6 +257,6 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  </body>
+</body>
 
-  </html>
+</html>
