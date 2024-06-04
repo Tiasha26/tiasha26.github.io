@@ -194,6 +194,8 @@ body.active { overflow: hidden; }
 .h4 { font-size: var(--fs-5); }
 
 .w-100 { width: 100%; }
+.w-50 {width: 240px;
+height: 556px;}
 
 .btn {
   max-width: max-content;
@@ -679,13 +681,26 @@ padding-bottom: 45px;
   /* text-align: left; */
 }
 .description{
+  background-color: var(--input-bg);
   font-size: var(--fs-5);
   color: var(--white);
   font-family: var(--ff-poppins);
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-12);
-  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.5);
+}
+.mymarket{
+  background-image: url("background 1.png");
+}
+.mymarket-descrip{
+  font-size: var(--fs-5);
+  color: var(--white);
+  font-family: var(--ff-poppins);
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-12);
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.5);
 }
 .descrip-titles{
   color: var(--sizzling-sunrise);
