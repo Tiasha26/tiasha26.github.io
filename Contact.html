@@ -42,7 +42,7 @@
         <a href="#">Tiasha<span>.</span></a>
       </h1>
 
-      <div class="navbar-actions">
+      <!-- <div class="navbar-actions">
 
         <select name="language" id="lang">
           <option value="en">En</option>
@@ -53,7 +53,7 @@
           <span class="icon"></span>
         </button>
 
-      </div>
+      </div> -->
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
         <span class="one"></span>
@@ -196,8 +196,9 @@
     </ul>
 
   </div>
+<div class="form-container">
 
-  <form action="" class="contact-form">
+  <form action="https://formspree.io/f/mzbnllzr" class="form"  method="POST" enctype="multipart/form-data">
 
     <div class="form-wrapper">
 
@@ -205,7 +206,7 @@
 
       <div class="input-wrapper">
 
-        <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+        <input type="text" name="fullName" id="name" required placeholder="e.g John Doe" class="input-field">
 
         <ion-icon name="person-circle"></ion-icon>
 
@@ -234,7 +235,7 @@
 
       <div class="input-wrapper">
 
-        <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+        <input type="tel" name="phone" id="phone" placeholder="Phone Number" class="input-field">
 
         <ion-icon name="call"></ion-icon>
 
@@ -257,9 +258,11 @@
 
     </div>
 
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" class="form-submit-btn">Send</button>
 
   </form>
+</div>
+
 
 </section>
 
@@ -277,7 +280,7 @@
     </p>
 
     <p class="copyright">
-      &copy; 2022 <a href="#">codewithtiasha</a>. All rights reserved
+      &copy; 2024. All rights reserved
     </p>
 
   </div>
