@@ -103,50 +103,83 @@
           <h1 class="h1 hero-title">Cyclistic Case Study</h1>
           <h3 class="descrip-titles">Project Title: Cyclistic Case Study</h3>
           <br>
-          <h3 class="descrip-titles">Overview:</h3>
+          <h3 class="descrip-titles">Introduction:</h3>
           <br>
           <ul style="list-style-type:disc;">
-            <li><b>The Challenge:</b> </li>
-            <li><b>Role:</b> Lead Developer and Designer</li>
+            <li><b>Purpose:</b> This analysis aims to explore Cyclistic’s bike-sharing data to
+              identify user behavior patterns and provide actionable insights to optimize
+              business strategies.</li>
+            <li><b>Data Source:</b> The dataset was obtained from Kaggle, containing
+              comprehensive trip data for Cyclistic bike-sharing services.</li>
           </ul>
           <br>
 
-          <h3 class="descrip-titles">The Process:</h3>
+          <h3 class="descrip-titles">Data Preparation:</h3>
           <ol type="1">
-            <li><b>Data Collection:</b> </li>
-            <li><b>Data Cleaning:</b> </li>
-            <li><b>Exploratory Data Analysis (EDA):</b> </li>
-            <li><b>Model Building:</b> </li>
-            <li><b>Evaluation:</b> </li>
+            <li><b>Data Cleaning:</b> Handling Missing Values: Removed rows with null values to
+              ensure data integrity.
+              Date and Time Standardization: Converted date and time fields to a consistent format for
+              accurate analysis.
+              Categorization: Classified users into types (casual vs. member) for targeted analysis.</li>
+            <li><b>Data Transformation:</b>
+              Extracted relevant columns such as trip duration, start and end stations, and user type.
+              Created new features, like day of the week and time of day, to analyze usage patterns. </li>
+
             <li>
-              <b>Development:</b>
+              <b>Exploratory Data Analysis (EDA)</b>
               <ul style="list-style-type:disc;">
-                <li><b>Built With:</b> </li>
-                <li><b>Responsive Design:</b> </li>
-                <li><b>Interactive Elements:</b> </li>
+                <li><b>User Demographics:</b>
+                  Distribution of User Types: Visualized the percentage split between casual users and members using a pie chart.
+                  Demographic Breakdown: Further analysis into age groups, gender, and location if available.</li>
+                <li><b>Trip Duration Analysis:</b>
+                  Statistical Summary: Calculated mean, median, and mode of trip durations for both user types.
+                  Visual Analysis: Used box plots and histograms to compare trip durations between casual users and members.</li>
+                <li><b>Popular Routes:</b>
+                  Top Stations: Identified the most frequented start and end stations.
+                  Heatmaps: Created heatmaps to visualize high-traffic routes and stations.</li>
+                <li><b>Usage Patterns:</b>
+                  Daily and Weekly Trends: Analyzed trip frequency by day of the week and time of day.
+                  Seasonal Trends: Looked for patterns in usage across different months and seasons.</li>
               </ul>
             </li>
 
           </ol>
           <br>
 
-          <h3 class="descrip-titles">Challenges and Solutions:</h3>
+          <h3 class="descrip-titles">Key Findings</h3>
           <ul style="list-style-type:disc;">
-            <li><b>Challenge:</b> </li>
-            <li><b>Solution:</b> </li>
-            <li><b>Challenge:</b> </li>
-            <li><b>Solution:</b> </li>
+            <li><b>Usage Patterns:</b>
+              Casual vs. Member: Casual users predominantly ride on weekends, while members ride more frequently on weekdays.
+              Trip Frequency: Members take shorter, more frequent trips, indicating use for daily commuting.</li>
+            <li><b>Trip Duration:</b>
+              Duration Comparison: Casual users tend to have longer trip durations compared to members.</li>
+            <li><b>Popular Routes:</b>
+              High Traffic Areas: Certain stations and routes are consistently high-traffic, indicating potential areas for service optimization.</li>
+
           </ul>
           <br>
-          <h3 class="descrip-titles">Results and Learnings:</h3>
+          <h3 class="descrip-titles">Recommendations:</h3>
           <ul style="list-style-type:disc;">
-            <li><b>Learnings:</b> </li>
-            <li><b>Outcome:</b> </li>
+            <li><b>Marketing Strategies:</b>
+              Targeting Casual Users: Implement weekday promotions to convert casual users to more frequent riders.
+              Loyalty Programs: Introduce loyalty programs to reward frequent member usage.</li>
+            <li><b>Operational Improvements:</b>
+              Bike Distribution: Optimize bike distribution to ensure availability in high-demand areas.
+              Service Expansion: Consider expanding service areas based on popular routes and user demand.</li>
           </ul>
+
+          <h3 class="descrip-titles">Conclusion:</h3>
+          <ul style="list-style-type:disc;">
+            <li>The analysis provides actionable insights into user behavior and trip patterns,
+              guiding Cyclistic in improving service delivery and marketing strategies.</li>
+            <li>By understanding user demographics and usage patterns, Cyclistic can tailor
+               services to meet user needs more effectively.</li>
+          </ul>
+
           <br>
           <h3 class="descrip-titles">Links:</h3>
           <ul style="list-style-type:disc;">
-            <li><b>Live Site:</b> Space Tourism Website</li>
+            <li><b>Live Site:</b> <a href="https://www.kaggle.com/code/tiashanaidu/cyclistic-case-study" target="_blank" style="text-decoration= none;"> Space Tourism Website</a></li>
             <li><b>Source Code:</b> GitHub Repository</li>
           </ul>
           <br>
