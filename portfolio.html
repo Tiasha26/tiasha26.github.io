@@ -10,7 +10,10 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
 
   <!--
     - custom css link
@@ -22,9 +25,8 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="top" class="dark_theme">
@@ -37,10 +39,10 @@
     <div class="container">
 
       <h1 class="h1 logo">
-        <a href="#">Tiasha<span>.</span></a>
+        <a href="index.html#home">Tiasha<span>.</span></a>
       </h1>
 
-      <div class="navbar-actions">
+      <!-- <div class="navbar-actions">
 
         <select name="language" id="lang">
           <option value="en">En</option>
@@ -51,7 +53,7 @@
           <span class="icon"></span>
         </button>
 
-      </div>
+      </div> -->
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
         <span class="one"></span>
@@ -60,7 +62,7 @@
       </button>
 
       <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+        <ul class="navbar-list" style="list-style-type:none;">
 
           <li>
             <a href="index.html#home" class="navbar-link">Home.</a>
@@ -95,7 +97,7 @@
 
 <section class="project" id="portfolio">
 
-  <ul class="project-list">
+  <ul class="project-list" style="list-style-type:none;">
 
     <li>
       <div class="project-content section-content">
@@ -114,72 +116,72 @@
     </li>
 
     <li>
-      <a href="#" class="project-card">
+      <a href="projects/Space-tourism website.html" class="project-card">
 
         <figure class="card-banner">
-          <img src="./assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
+          <img src="projects/project-img/Space-tourism/Home.png" class="w-100" alt="Space tourism home page">
         </figure>
 
         <div class="card-content">
-          <h3 class="h4 card-title">Lorem Ipsum Dolor 01</h3>
+          <h3 class="h4 card-title">Space Tourism Multi-page Website</h3>
 
-          <time class="publish-date" datetime="2022-04">April 2022</time>
+          <time class="publish-date" datetime="2022-04">March 2023</time>
         </div>
 
       </a>
     </li>
 
     <li>
-      <a href="#" class="project-card">
+      <a href="projects/My Market App.html" class="project-card">
 
         <figure class="card-banner">
-          <img src="./assets/images/project-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+          <img src="projects/project-img/My-Market/My market cover.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
         </figure>
 
         <div class="card-content">
-          <h3 class="h4 card-title">Lorem Ipsum Dolor 02</h3>
+          <h3 class="h4 card-title">My Market App</h3>
 
-          <time class="publish-date" datetime="2022-04">April 2022</time>
+          <time class="publish-date" datetime="2022-04">May 2024</time>
         </div>
 
       </a>
     </li>
 
     <li>
-      <a href="#" class="project-card">
+      <a href="projects/Cyclistic Case Study.html" class="project-card">
 
         <figure class="card-banner">
-          <img src="./assets/images/project-3.png" class="w-100"
+          <img src="./projects/project-img/Data Analytics/Rplot002.png" class="w-100"
             alt="A Cassette tape on a mellow apricot background.">
         </figure>
 
         <div class="card-content">
-          <h3 class="h4 card-title">Lorem Ipsum Dolor 03</h3>
+          <h3 class="h4 card-title">Cyclistic Case Study</h3>
 
-          <time class="publish-date" datetime="2022-04">April 2022</time>
+          <time class="publish-date" datetime="2022-04">April 2024</time>
         </div>
 
       </a>
     </li>
 
     <li>
-      <a href="#" class="project-card">
+      <a href="projects/Jr Panels Website.html" class="project-card">
 
         <figure class="card-banner">
-          <img src="./assets/images/project-4.png" class="w-100"
+          <img src="./projects/project-img/Websites/jrpanels.com_.png" class="w-100"
             alt="Blue digital watch on a dark liver background.">
         </figure>
 
         <div class="card-content">
-          <h3 class="h4 card-title">Lorem Ipsum Dolor 04</h3>
+          <h3 class="h4 card-title">Jr Panels Website</h3>
 
-          <time class="publish-date" datetime="2022-04">April 2022</time>
+          <time class="publish-date" datetime="2022-04">2023</time>
         </div>
 
       </a>
     </li>
 
-    <li>
+    <!-- <li>
       <a href="#" class="project-card">
 
         <figure class="card-banner">
@@ -194,9 +196,9 @@
         </div>
 
       </a>
-    </li>
+    </li> -->
 
-    <li>
+    <!-- <li>
       <a href="#" class="project-card">
 
         <figure class="card-banner">
@@ -211,9 +213,9 @@
         </div>
 
       </a>
-    </li>
+    </li> -->
 
-    <li>
+    <!-- <li>
       <a href="#" class="project-card">
 
         <figure class="card-banner">
@@ -232,7 +234,7 @@
 
     <li>
       <button class="load-more">Load more work</button>
-    </li>
+    </li> -->
 
   </ul>
 
@@ -252,7 +254,7 @@
     </p>
 
     <p class="copyright">
-      &copy; 2022 <a href="#">codewithtiasha</a>. All rights reserved
+      &copy; 2024. All rights reserved
     </p>
 
   </div>

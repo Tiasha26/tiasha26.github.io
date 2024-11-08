@@ -10,7 +10,10 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
 
   <!--
     - custom css link
@@ -22,9 +25,8 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="top" class="dark_theme">
@@ -37,10 +39,10 @@
     <div class="container">
 
       <h1 class="h1 logo">
-        <a href="#">Tiasha<span>.</span></a>
+        <a href="index.html#home">Tiasha<span>.</span></a>
       </h1>
 
-      <div class="navbar-actions">
+      <!-- <div class="navbar-actions">
 
         <select name="language" id="lang">
           <option value="en">En</option>
@@ -51,7 +53,7 @@
           <span class="icon"></span>
         </button>
 
-      </div>
+      </div> -->
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
         <span class="one"></span>
@@ -60,7 +62,7 @@
       </button>
 
       <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+        <ul class="navbar-list" style="list-style-type:none;">
 
           <li>
             <a href="index.html#home" class="navbar-link">Home.</a>
@@ -105,7 +107,7 @@
       Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
     </p>
 
-    <ul class="contact-list">
+    <ul class="contact-list" style="list-style-type:none;">
 
       <!-- <li class="contact-list-item">
 
@@ -113,17 +115,17 @@
           <ion-icon name="location-outline"></ion-icon>
         </div>
 
-        <!-- <div class="wrapper">
+        <div class="wrapper">
           <h3 class="h4 contact-item-title">Email adr:</h3>
 
           <address class="contact-info">
             941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
           </address>
-        </div> -->
+        </div>
 
       </li> -->
 
-      <li class="contact-list-item">
+      <!-- <li class="contact-list-item">
 
         <div class="contact-item-icon">
           <ion-icon name="call-outline"></ion-icon>
@@ -132,12 +134,11 @@
         <div class="wrapper">
           <h3 class="h4 contact-item-title">Phone:</h3>
 
-          <a href="tel:0784351433" class="contact-info">078 435 1433</a>
+          <a href="tel:0784351433" class="contact-info"></a>
 
-          <a href="tel:09765432200" class="contact-info">(09) 765 432 200</a>
         </div>
 
-      </li>
+      </li> -->
 
       <li class="contact-list-item">
 
@@ -155,7 +156,7 @@
       </li>
 
       <li>
-        <ul class="contac-social-list">
+        <ul class="contac-social-list" style="list-style-type:none;">
 
           <li>
             <a href="#" class="contact-social-link">
@@ -195,8 +196,9 @@
     </ul>
 
   </div>
+<div class="form-container">
 
-  <form action="" class="contact-form">
+  <form action="https://formspree.io/f/mzbnllzr" class="form"  method="POST" enctype="multipart/form-data">
 
     <div class="form-wrapper">
 
@@ -204,7 +206,7 @@
 
       <div class="input-wrapper">
 
-        <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+        <input type="text" name="fullName" id="name" required placeholder="e.g John Doe" class="input-field">
 
         <ion-icon name="person-circle"></ion-icon>
 
@@ -233,7 +235,7 @@
 
       <div class="input-wrapper">
 
-        <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+        <input type="tel" name="phone" id="phone" placeholder="Phone Number" class="input-field">
 
         <ion-icon name="call"></ion-icon>
 
@@ -256,9 +258,11 @@
 
     </div>
 
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" class="form-submit-btn">Send</button>
 
   </form>
+</div>
+
 
 </section>
 
@@ -276,7 +280,7 @@
     </p>
 
     <p class="copyright">
-      &copy; 2022 <a href="#">codewithtiasha</a>. All rights reserved
+      &copy; 2024. All rights reserved
     </p>
 
   </div>

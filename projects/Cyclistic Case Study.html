@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiasha - personal portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="../index.html#home">Tiasha<span>.</span></a>
+      </h1>
+
+      <!-- <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div> -->
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list" style="list-style-type:none;">
+
+          <li>
+            <a href="../index.html#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="../index.html#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="../index.html#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="../portfolio.html" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="../Contact.html" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <section class="projects">
+
+
+    <ul class="" style="list-style-type:none;">
+      <li class="lists ">
+        <div class="description card-inside">
+          <h1 class="h1 hero-title">Cyclistic Case Study</h1>
+          <h3 class="descrip-titles">Project Title: Cyclistic Case Study</h3>
+          <br>
+          <h3 class="descrip-titles">Introduction:</h3>
+          <br>
+          <ul style="list-style-type:disc;">
+            <li><b>Purpose:</b> This analysis aims to explore Cyclistic’s bike-sharing data to
+              identify user behavior patterns and provide actionable insights to optimize
+              business strategies.</li>
+            <li><b>Data Source:</b> The dataset was obtained from Kaggle, containing
+              comprehensive trip data for Cyclistic bike-sharing services.</li>
+          </ul>
+          <br>
+
+          <h3 class="descrip-titles">Data Preparation:</h3>
+          <ol type="1">
+            <li><b>Data Cleaning:</b> Handling Missing Values: Removed rows with null values to
+              ensure data integrity.
+              Date and Time Standardization: Converted date and time fields to a consistent format for
+              accurate analysis.
+              Categorization: Classified users into types (casual vs. member) for targeted analysis.</li>
+            <li><b>Data Transformation:</b>
+              Extracted relevant columns such as trip duration, start and end stations, and user type.
+              Created new features, like day of the week and time of day, to analyze usage patterns. </li>
+
+            <li>
+              <b>Exploratory Data Analysis (EDA)</b>
+              <ul style="list-style-type:disc;">
+                <li><b>User Demographics:</b>
+                  Distribution of User Types: Visualized the percentage split between casual users and members using a pie chart.
+                  Demographic Breakdown: Further analysis into age groups, gender, and location if available.</li>
+                <li><b>Trip Duration Analysis:</b>
+                  Statistical Summary: Calculated mean, median, and mode of trip durations for both user types.
+                  Visual Analysis: Used box plots and histograms to compare trip durations between casual users and members.</li>
+                <li><b>Popular Routes:</b>
+                  Top Stations: Identified the most frequented start and end stations.
+                  Heatmaps: Created heatmaps to visualize high-traffic routes and stations.</li>
+                <li><b>Usage Patterns:</b>
+                  Daily and Weekly Trends: Analyzed trip frequency by day of the week and time of day.
+                  Seasonal Trends: Looked for patterns in usage across different months and seasons.</li>
+              </ul>
+            </li>
+
+          </ol>
+          <br>
+
+          <h3 class="descrip-titles">Key Findings</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Usage Patterns:</b>
+              Casual vs. Member: Casual users predominantly ride on weekends, while members ride more frequently on weekdays.
+              Trip Frequency: Members take shorter, more frequent trips, indicating use for daily commuting.</li>
+            <li><b>Trip Duration:</b>
+              Duration Comparison: Casual users tend to have longer trip durations compared to members.</li>
+            <li><b>Popular Routes:</b>
+              High Traffic Areas: Certain stations and routes are consistently high-traffic, indicating potential areas for service optimization.</li>
+
+          </ul>
+          <br>
+          <h3 class="descrip-titles">Recommendations:</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Marketing Strategies:</b>
+              Targeting Casual Users: Implement weekday promotions to convert casual users to more frequent riders.
+              Loyalty Programs: Introduce loyalty programs to reward frequent member usage.</li>
+            <li><b>Operational Improvements:</b>
+              Bike Distribution: Optimize bike distribution to ensure availability in high-demand areas.
+              Service Expansion: Consider expanding service areas based on popular routes and user demand.</li>
+          </ul>
+
+          <h3 class="descrip-titles">Conclusion:</h3>
+          <ul style="list-style-type:disc;">
+            <li>The analysis provides actionable insights into user behavior and trip patterns,
+              guiding Cyclistic in improving service delivery and marketing strategies.</li>
+            <li>By understanding user demographics and usage patterns, Cyclistic can tailor
+               services to meet user needs more effectively.</li>
+          </ul>
+
+          <br>
+          <h3 class="descrip-titles">Links:</h3>
+          <ul style="list-style-type:disc;">
+            <li><b>Live Site:</b> <a href="https://www.kaggle.com/code/tiashanaidu/cyclistic-case-study" target="_blank" style="text-decoration= none;"> Kaggle Notebook</a></li>
+            <!-- <li><b>Source Code:</b> GitHub Repository</li> -->
+          </ul>
+          <br>
+
+          <h3 class="descrip-titles">Screenshots:</h3>
+          <img src="./project-img/Data Analytics/Rplot001.png" alt="">
+          <img src="./project-img/Data Analytics/Rplot002.png" alt="">
+
+
+        </div>
+      </li>
+      <!-- </li> -->
+    </ul>
+
+  </section>
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Tiasha<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2024. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -10,7 +10,10 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
 
   <!--
     - custom css link
@@ -22,9 +25,8 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="top" class="dark_theme">
@@ -40,18 +42,18 @@
         <a href="#">Tiasha<span>.</span></a>
       </h1>
 
-      <div class="navbar-actions">
+      <!-- <div class="navbar-actions">
 
-        <!-- <select name="language" id="lang">
+        <select name="language" id="lang">
           <option value="en">En</option>
           <option value="ar">Ar</option>
-        </select> -->
+        </select>
 
         <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
           <span class="icon"></span>
         </button>
 
-      </div>
+      </div> -->
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
         <span class="one"></span>
@@ -60,7 +62,7 @@
       </button>
 
       <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+        <ul class="navbar-list" style="list-style-type:none;">
 
           <li>
             <a href="#home" class="navbar-link">Home.</a>
@@ -116,14 +118,14 @@
 
           <h2 class="h2 hero-title">I Design & Build Creative Products</h2>
 
-          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="Contact.html" class="btn btn-primary">Get in touch</a>
 
         </div>
 
-        <ul class="hero-social-list">
+        <ul class="hero-social-list" style="list-style-type:none;">
 
           <li>
-            <a href="#" class="hero-social-link">
+            <a href="https://github.com/Tiasha26" class="hero-social-link">
               <ion-icon name="logo-Github"></ion-icon>
 
               <div class="tooltip">Github</div>
@@ -139,7 +141,7 @@
           </li>
 
           <li>
-            <a href="#" class="hero-social-link">
+            <a href="https://www.linkedin.com/in/tiasha-naidu/" class="hero-social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
 
               <div class="tooltip">Linkedin</div>
@@ -161,7 +163,7 @@
       -->
 
       <section class="stats" id="stats">
-        <ul class="stats-list">
+        <ul class="stats-list" style="list-style-type:none;">
 
           <li>
             <a href="#" class="stats-card">
@@ -180,7 +182,7 @@
           </li>
 
           <li>
-            <a href="#" class="stats-card">
+            <a href="portfolio.html" class="stats-card">
 
               <div class="card-icon">
                 <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
@@ -225,7 +227,7 @@
       <section class="about" id="about">
 
         <!-- <figure class="about-banner">
-          <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
+          <img src="./assets/images/about-banner.png" alt="A man is in in a alice blue shirt with a thinking expression"
             class="w-100">
         </figure> -->
 
@@ -246,9 +248,9 @@
 
           <div class="btn-group">
             <a href="Contact.html">
-            <button class="btn btn-secondary">Hire me</button></a>
+            <button class="btn btn-primary">Hire me</button></a>
 
-            <a href="https://drive.google.com/drive/folders/1OwnfXvRs7MN3IO5XPIhJ314BQgwreGca?usp=sharing">
+            <a href="assets\Tiasha Naidu (1).pdf" target="_blank" download="Tiasha Naidu CV">
             <button class="btn btn-primary">Download cv</button></a>
           </div>
 
@@ -288,7 +290,7 @@
 
         <div class="skills-box" data-skills-box>
 
-          <ul class="skills-list">
+          <ul class="skills-list" style="list-style-type:none;">
 
             <li>
               <div class="skill-card">
@@ -412,7 +414,7 @@
 
           </ul>
 
-          <ul class="tools-list">
+          <ul class="tools-list" style="list-style-type:none;">
 
             <li>
               <div class="skill-card">
@@ -534,22 +536,21 @@
               </div>
             </li>
 
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Kaggle</div> <!-- Change image -->
+
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+
           </ul>
 
         </div>
 
       </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
     </article>
@@ -573,7 +574,7 @@
       </p>
 
       <p class="copyright">
-        &copy; 2022 <a href="#">codewithtiasha</a>. All rights reserved
+        &copy; 2024. All rights reserved
       </p>
 
     </div>
